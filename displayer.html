@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
+    <link href="display.css" rel="stylesheet">
 </head>
 <body>
     <div class ="container">
-        <div class="container">
+        <div class="counter">
             <p id="count">0</p>
         </div>
         <div>
-            <button onclick="dec">Decrement</button>
-            <button onclick="inc">Increment</button>
+            <button onclick="dec()">Decrement</button>
+            <button onclick="inc()">Increment</button>
         </div>
         <div class="clicks">
-            <p>Clicks on Increment: <span id="inCount">0</span></p>
+            <p>Clicks on Increment: <span id="incCount">0</span></p>
             <p>Clicks on Decrement: <span id="decCount">0</span>
         </div>
     </div>
+    <script src="display.js"></script>
 </body>
 </html>
